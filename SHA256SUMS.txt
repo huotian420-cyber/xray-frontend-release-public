@@ -1,0 +1,4 @@
+cf1f0918947c107caf75022f91f40155077afa65fec6b331ea41888662434c01 *xray-backend-linux-amd64
+d247ffbc9bfb6c1cc13ce65b0d2a89f81d688babaef09773b68ef3bc1d844f02 *xray-backend-linux-arm64
+786c41aa4d35abc41abcfd9d911b296943c446a5ece4336b87e763cefc88c17c *install.sh
+fb84d3f954f1ec0805444b559219fb8b2fb42f896610c5cda974c54e66e20555 *xray-backend-release.tar.gz
