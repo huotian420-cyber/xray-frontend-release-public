@@ -5,8 +5,8 @@ This repository hosts the public release archive for the frontend-enabled Xray p
 ## Ubuntu Download
 
 ```bash
-wget -O xray-backend-release.tar.gz https://github.com/huotian420-cyber/xray-frontend-release-public/raw/main/xray-backend-release.tar.gz
-wget -O SHA256SUMS.txt https://raw.githubusercontent.com/huotian420-cyber/xray-frontend-release-public/main/SHA256SUMS.txt
+curl -L https://github.com/huotian420-cyber/xray-frontend-release-public/raw/main/xray-backend-release.tar.gz -o xray-backend-release.tar.gz
+curl -L https://raw.githubusercontent.com/huotian420-cyber/xray-frontend-release-public/main/SHA256SUMS.txt -o SHA256SUMS.txt
 sha256sum -c SHA256SUMS.txt --ignore-missing
 mkdir -p xray-backend
 tar -xzf xray-backend-release.tar.gz -C xray-backend
