@@ -7,7 +7,7 @@
 - `SHA256SUMS.txt`
 
 对应私有源码提交：
-- `537a924` `Harden panel runtime and refresh release package`
+- `55be4a8` `Tighten SSH defaults and refresh release package`
 
 Ubuntu 下载命令：
 
