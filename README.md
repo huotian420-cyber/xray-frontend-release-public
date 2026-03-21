@@ -7,7 +7,7 @@
 - `SHA256SUMS.txt`
 
 对应私有源码提交：
-- `8261415` `Add VLESS cipher pair support and refresh release package`
+- `a6905bf` `Refresh release checksums`
 
 Ubuntu 下载命令：
 
