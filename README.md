@@ -7,7 +7,7 @@
 - `SHA256SUMS.txt`
 
 对应私有源码提交：
-- `9779239` `Add recovery admin tooling and enforce 2FA setup`
+- `d47e66c` `Reconcile managed TLS nodes and refresh release package`
 
 Ubuntu 下载命令：
 
