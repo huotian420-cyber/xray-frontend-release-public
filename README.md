@@ -7,7 +7,7 @@
 - `SHA256SUMS.txt`
 
 对应私有源码提交：
-- `00de76c` `Relax 2FA challenge IP binding`
+- `1b5482d` `Harden admin secret exposure and sensitive actions`
 
 Ubuntu 下载命令：
 
