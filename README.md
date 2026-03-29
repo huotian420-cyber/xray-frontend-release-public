@@ -16,13 +16,15 @@
 - `SHA256SUMS.txt`
 
 对应私有源码提交：
-- `30accb7` `Align full frontend repo with latest Xray compatibility`
+- `9f69fed` `Remove SSH knock and ship real traffic monitoring`
 
 当前根目录同步的公开包：
 - 基于带前端私有完整源码仓 `main` 的最新安装包
 - 已对齐官方正式版 `Xray-core v26.3.27`
-- 已包含 `Reality x25519` 新输出兼容、`XHTTP mode` 对齐和 `Reality shortIds` 归一化
-- 当前固定版本 tag：`v2026.03.29-frontend-direct-1`
+- 已移除 SSH knock 入口与后端逻辑，SSH `22` 固定开放
+- 已接入真实流量统计链路：Xray stats API、配额字节化、重启后差分持久化
+- 已补齐 `XHTTP / gRPC / ALPN(h2/h3/http/1.1)` 与官方当前行为的兼容
+- 当前固定版本 tag：`v2026.03.30-frontend-direct-1`
 
 仓库根目录直链：
 
@@ -33,7 +35,7 @@ curl -fL --progress-bar -o xray-backend-release.tar.gz https://raw.githubusercon
 固定版本下载：
 
 ```bash
-curl -fL --progress-bar -o xray-backend-release.tar.gz https://raw.githubusercontent.com/huotian420-cyber/xray-frontend-release-public/v2026.03.29-frontend-direct-1/xray-backend-release.tar.gz
+curl -fL --progress-bar -o xray-backend-release.tar.gz https://raw.githubusercontent.com/huotian420-cyber/xray-frontend-release-public/v2026.03.30-frontend-direct-1/xray-backend-release.tar.gz
 ```
 
 校验命令：
